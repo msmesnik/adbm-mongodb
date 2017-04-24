@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/daerion/adbm-mongodb#readme",
   "peerDependencies": {
+    "adbm": "^0.1.0",
     "mongodb": "^2.2.26"
   },
   "devDependencies": {

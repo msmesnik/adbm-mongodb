@@ -1,0 +1,36 @@
+{
+  "name": "adbm-mongodb",
+  "version": "1.0.0",
+  "description": "mongoDB adapter for adbm database migration tool",
+  "main": "index.js",
+  "scripts": {
+    "docker:db": "docker start adbm_mongo_dev_db || docker run --name adbm_mongo_dev_db -p 27017:27017 -d mongo:3.4",
+    "preversion": "npm run lint && npm run test",
+    "lint": "standard",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daerion/adbm-mongodb.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "migration"
+  ],
+  "author": "Michael Smesnik <ms@tailored-apps.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daerion/adbm-mongodb/issues"
+  },
+  "homepage": "https://github.com/daerion/adbm-mongodb#readme",
+  "peerDependencies": {
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.26",
+    "standard": "^10.0.2"
+  }
+}

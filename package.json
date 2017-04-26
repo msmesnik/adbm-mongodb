@@ -1,6 +1,6 @@
 {
   "name": "adbm-mongodb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "mongoDB adapter for adbm database migration tool",
   "main": "index.js",
   "scripts": {

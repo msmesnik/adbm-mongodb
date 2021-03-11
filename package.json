@@ -36,7 +36,7 @@
     "tslib": "^2.1.0"
   },
   "peerDependencies": {
-    "adbm": "^2.0.0",
+    "adbm": "^2.0.1",
     "mongodb": "^3.0.0"
   },
   "devDependencies": {
@@ -45,7 +45,7 @@
     "@types/mongodb": "^3.6.9",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
-    "adbm": "file:///tmp/adbm-031103.tgz",
+    "adbm": "^2.0.1",
     "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",

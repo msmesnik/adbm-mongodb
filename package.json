@@ -1,6 +1,6 @@
 {
   "name": "adbm-mongodb",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "mongoDB adapter for adbm database migration tool",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,7 @@
     "mongodb",
     "migration"
   ],
-  "author":{
+  "author": {
     "name": "Michael Smesnik",
     "email": "michael@crystallize.com"
   },
